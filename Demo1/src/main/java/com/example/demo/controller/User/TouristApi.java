@@ -3,15 +3,12 @@ package com.example.demo.controller.User;
 import com.example.demo.pojo.users.Tourist;
 import com.example.demo.response.ResponseResult;
 import com.example.demo.services.ITouristService;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 
 @RestController
-@RequestMapping("/Tourist")
+@RequestMapping("/tourist")
 public class TouristApi {
 
 
@@ -19,9 +16,13 @@ public class TouristApi {
 
     @PostMapping("/admin_account")
     public ResponseResult initManagerAccount(@RequestBody Tourist Tourist, HttpServletRequest request){
-
         return touristService.initManagerAccount(Tourist,request);
-
-
     }
+
+
+    @GetMapping("/w")
+    public String he(){
+        return "s";
+    }
+
 }
