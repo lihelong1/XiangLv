@@ -11,6 +11,10 @@ public class TestController {
         return "Hello World !";
     }
 
+    @GetMapping("/h")
+    public String h(){
+        return "H";
+    }
 
 
 
