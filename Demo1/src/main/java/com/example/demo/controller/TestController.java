@@ -6,8 +6,12 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/test")
 public class TestController {
 
-    @GetMapping("/s")
+    @GetMapping("/hello")
     public String Hello(){
-        return "he";
+        return "Hello World !";
     }
+
+
+
+
 }
