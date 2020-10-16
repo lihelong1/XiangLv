@@ -20,9 +20,10 @@ public class TouristApi {
     }
 
 
-    @GetMapping("/w")
+
+    @GetMapping("/gghfhgffggjh")
     public String he(){
-        return "s";
+        return "ghjhjggjhjgh";
     }
 
 }
