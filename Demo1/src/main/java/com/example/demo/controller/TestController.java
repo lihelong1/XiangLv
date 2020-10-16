@@ -13,10 +13,7 @@ public class TestController {
 
     @GetMapping("/h")
     public String h(){
-        return "Hjhghj";
-
-
-
+        return "Hello";
     }
 
 
