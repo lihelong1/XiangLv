@@ -28,10 +28,10 @@ public class Swagger2Configuration {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(portalApiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.example.demo.controller.User"))
+                .apis(RequestHandlerSelectors.basePackage("com.example.demo.controller"))
                 .paths(PathSelectors.any()) // 可以根据url路径设置哪些请求加入文档，忽略哪些请求
                 .build()
-                .groupName("前端门户");
+                .groupName("Api");
     }
 
     private ApiInfo portalApiInfo() {

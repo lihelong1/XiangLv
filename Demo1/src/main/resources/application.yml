@@ -10,7 +10,7 @@ spring:
         open-in-view: false
 
 server:
-    port: 5050
+    port: 2020
 
 jpa:
     show-sql: true

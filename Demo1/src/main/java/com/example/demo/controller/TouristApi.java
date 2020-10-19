@@ -1,8 +1,9 @@
-package com.example.demo.controller.User;
+package com.example.demo.controller;
 
 import com.example.demo.pojo.Tourist;
 import com.example.demo.response.ResponseResult;
 import com.example.demo.services.ITouristService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
@@ -12,9 +13,10 @@ import javax.servlet.http.HttpServletRequest;
 public class TouristApi {
 
 
+    @Autowired
     private ITouristService touristService;
 
-    @PostMapping("/admin_account")
+    @PostMapping("/account")
     public ResponseResult initManagerAccount(@RequestBody Tourist Tourist, HttpServletRequest request){
         return touristService.initManagerAccount(Tourist,request);
     }

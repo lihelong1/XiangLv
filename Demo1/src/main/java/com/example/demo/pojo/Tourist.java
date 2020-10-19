@@ -11,157 +11,160 @@ import java.util.Date;
 public class Tourist {
 
     @Id
-    @Column(name = "trs_ID")
-    private String Trs_ID;
+    @Column(name = "tourist_ID")
+    private String Tourist_ID;
 
-    @Column(name = "trs_name")
-    private String Trs_name;
+    @Column(name = "tourist_name")
+    private String Tourist_name;
 
-    @Column(name = "trs_sexy")
-    private String Trs_sexy;
+    @Column(name = "tourist_sexy")
+    private String Tourist_sexy;
 
-    @Column(name = "trs_born_time")
-    private Date Trs_born_time;
+    @Column(name = "tourist_born_time")
+    private Date Tourist_born_time;
 
-    @Column(name = "trs_mobile")
-    private String Trs_mobile;
+    @Column(name = "tourist_mobile")
+    private String Tourist_mobile;
 
-    @Column(name = "trs_checkstate")
-    private String Trs_checkstate;
+    @Column(name = "tourist_checkstate")
+    private String Tourist_checkstate;
 
-    @Column(name = "trs_state")
-    private String Trs_state;
+    @Column(name = "tourist_state")
+    private String Tourist_state;
 
-    @Column(name = "trs_idcard")
-    private String Trs_idcard;
+    @Column(name = "tourist_idcard")
+    private String Tourist_idcard;
 
-    @Column(name = "trs_create_time")
-    private Date Trs_create_time;
+    @Column(name = "tourist_create_time")
+    private Date Tourist_create_time;
 
-    @Column(name = "trs_nickname")
-    private String Trs_nickname;
+    @Column(name = "tourist_nickname")
+    private String Tourist_nickname;
 
-    @Column(name = "trs_uname")
-    private String Trs_uname;
+    @Column(name = "tourist_uname")
+    private String Tourist_uname;
 
-    @Column(name = "trs_password")
-    private String Trs_password;
+    @Column(name = "tourist_password")
+    private String Tourist_password;
 
-    @Column(name = "trs_qq")
-    private String Trs_qq;
+    @Column(name = "tourist_qq")
+    private String Tourist_qq;
 
-    @Column(name = "trs_wechat")
-    private String Trs_wechat;
+    @Column(name = "tourist_wechat")
+    private String Tourist_wechat;
 
-    public String getTrs_ID() {
-        return Trs_ID;
+    public String getTourist_ID() {
+        return Tourist_ID;
     }
 
-    public void setTrs_ID(String trs_ID) {
-        this.Trs_ID = trs_ID;
+    public void setTourist_ID(String tourist_ID) {
+        Tourist_ID = tourist_ID;
     }
 
-    public String getTrs_name() {
-        return Trs_name;
+    public String getTourist_name() {
+        return Tourist_name;
     }
 
-    public void setTrs_name(String trs_name) {
-        this.Trs_name = trs_name;
+    public void setTourist_name(String tourist_name) {
+        Tourist_name = tourist_name;
     }
 
-    public String getTrs_sexy() {
-        return Trs_sexy;
+    public String getTourist_sexy() {
+        return Tourist_sexy;
     }
 
-    public void setTrs_sexy(String trs_sexy) {
-        this.Trs_sexy = trs_sexy;
+    public void setTourist_sexy(String tourist_sexy) {
+        Tourist_sexy = tourist_sexy;
     }
 
-    public Date getTrs_born_time() {
-        return Trs_born_time;
+    public Date getTourist_born_time() {
+        return Tourist_born_time;
     }
 
-    public void setTrs_born_time(Date trs_born_time) {
-        this.Trs_born_time = trs_born_time;
+    public void setTourist_born_time(Date tourist_born_time) {
+        Tourist_born_time = tourist_born_time;
     }
 
-    public String getTrs_mobile() {
-        return Trs_mobile;
+    public String getTourist_mobile() {
+        return Tourist_mobile;
     }
 
-    public void setTrs_mobile(String trs_mobile) {
-        this.Trs_mobile = trs_mobile;
+    public void setTourist_mobile(String tourist_mobile) {
+        Tourist_mobile = tourist_mobile;
     }
 
-    public String getTrs_checkstate() {
-        return Trs_checkstate;
+    public String getTourist_checkstate() {
+        return Tourist_checkstate;
     }
 
-    public void setTrs_checkstate(String trs_checkstate) {
-        this.Trs_checkstate = trs_checkstate;
+    public void setTourist_checkstate(String tourist_checkstate) {
+        Tourist_checkstate = tourist_checkstate;
     }
 
-    public String getTrs_state() {
-        return Trs_state;
+    public String getTourist_state() {
+        return Tourist_state;
     }
 
-    public void setTrs_state(String trs_state) {
-        this.Trs_state = trs_state;
+    public void setTourist_state(String tourist_state) {
+        Tourist_state = tourist_state;
     }
 
-    public String getTrs_idcard() {
-        return Trs_idcard;
+    public String getTourist_idcard() {
+        return Tourist_idcard;
     }
 
-    public void setTrs_idcard(String trs_idcard) {
-        this.Trs_idcard = trs_idcard;
+    public void setTourist_idcard(String tourist_idcard) {
+        Tourist_idcard = tourist_idcard;
     }
 
-    public Date getTrs_create_time() {
-        return Trs_create_time;
+    public Date getTourist_create_time() {
+        return Tourist_create_time;
     }
 
-    public void setTrs_create_time(Date trs_create_time) {
-        this.Trs_create_time = trs_create_time;
+    public void setTourist_create_time(Date tourist_create_time) {
+        Tourist_create_time = tourist_create_time;
     }
 
-    public String getTrs_nickname() {
-        return Trs_nickname;
+    public String getTourist_nickname() {
+        return Tourist_nickname;
     }
 
-    public void setTrs_nickname(String trs_nickname) {
-        this.Trs_nickname = trs_nickname;
+    public void setTourist_nickname(String tourist_nickname) {
+        Tourist_nickname = tourist_nickname;
     }
 
-    public String getTrs_uname() {
-        return Trs_uname;
+    public String getTourist_uname() {
+        return Tourist_uname;
     }
 
-    public void setTrs_uname(String trs_uname) {
-        this.Trs_uname = trs_uname;
+    public void setTourist_uname(String tourist_uname) {
+        Tourist_uname = tourist_uname;
     }
 
-    public String getTrs_password() {
-        return Trs_password;
+    public String getTourist_password() {
+        return Tourist_password;
     }
 
-    public void setTrs_password(String trs_password) {
-        this.Trs_password = trs_password;
+    public void setTourist_password(String tourist_password) {
+        Tourist_password = tourist_password;
     }
 
-    public String getTrs_qq() {
-        return Trs_qq;
+    public String getTourist_qq() {
+        return Tourist_qq;
     }
 
-    public void setTrs_qq(String trs_qq) {
-        this.Trs_qq = trs_qq;
+    public void setTourist_qq(String tourist_qq) {
+        Tourist_qq = tourist_qq;
     }
 
-    public String getTrs_wechat() {
-        return Trs_wechat;
+    public String getTourist_wechat() {
+        return Tourist_wechat;
     }
 
-    public void setTrs_wechat(String trs_wechat) {
-        this.Trs_wechat = trs_wechat;
+    public void setTourist_wechat(String tourist_wechat) {
+        Tourist_wechat = tourist_wechat;
     }
 }
+
+
+
